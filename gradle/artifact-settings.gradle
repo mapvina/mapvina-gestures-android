@@ -1,0 +1,14 @@
+ext {
+    mapvinaArtifactGroupId = 'io.github.mapvina'
+    mapvinaArtifactId = 'mapvina-android-gestures'
+    mapvinaArtifactTitle = 'MapVina Android Gestures Library'
+    mapvinaArtifactDescription = 'MapVina Android Gestures Library'
+    mapvinaDeveloperName = 'MapVina'
+    mapvinaDeveloperId = 'mapvina'
+    mapvinaArtifactUrl = 'https://github.com/mapvina/mapvina-gestures-android'
+    mapvinaArtifactVcsUrl = 'https://github.com/mapvina/mapvina-gestures-android.git'
+    mapvinaArtifactScmUrl = 'scm:git@github.com/mapvina/mapvina-gestures-android.git'
+    mapvinaArtifactLicenseName = 'BSD'
+    mapvinaArtifactLicenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
+    versionName = project.hasProperty('VERSION_NAME') ? project.property('VERSION_NAME') : System.getenv('VERSION_NAME')
+}
