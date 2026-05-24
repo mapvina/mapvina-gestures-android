@@ -26,6 +26,6 @@ public class MapboxActivity extends AppCompatActivity implements OnMapReadyCallb
 
   @Override
   public void onMapReady(@NonNull MapVinaMap mapVinaMap) {
-    mapVinaMap.setStyle("https://maps.mapvina.com/styles/v1/streets.json?key=public_key");
+    mapVinaMap.setStyle("https://maps.mapvina.com/styles/v2/streets.json?key=public_key");
   }
 }

@@ -26,10 +26,10 @@ tasks.withType(Javadoc) {
     options.addStringOption('charset', 'UTF-8')
 }
 
-artifacts {
-    archives androidSourcesJar
-    archives androidJavadocsJar
-}
+// artifacts {
+//     archives androidSourcesJar
+//     archives androidJavadocsJar
+// }
 
 logger.lifecycle(ext["versionName"])
 
@@ -45,6 +45,8 @@ afterEvaluate {
                 version this.version
 
                 from components.release
+
+                artifact androidJavadocsJar
 
                 pom {
                     name = project.ext.mapvinaArtifactTitle
@@ -85,4 +87,9 @@ afterEvaluate { project ->
 
 signing {
     sign publishing.publications
+}
+
+tasks.withType(GenerateModuleMetadata) {
+    dependsOn androidSourcesJar
+    dependsOn androidJavadocsJar
 }
