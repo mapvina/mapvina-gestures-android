@@ -1,4 +1,4 @@
-package com.mapvina.android.gestures;
+package io.github.mapvina.android.gestures;
 
 import org.junit.Before;
 import org.junit.Test;

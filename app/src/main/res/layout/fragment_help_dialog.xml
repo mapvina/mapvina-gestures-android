@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.mapvina.android.gestures.testapp.HelpDialogFragment">
+    tools:context="io.github.mapvina.android.gestures.testapp.HelpDialogFragment">
 
     <TextView
         android:id="@+id/help_title_tv"

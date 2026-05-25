@@ -6,7 +6,7 @@
 
 The MapVina Gestures for Android library wraps [GestureDetectorCompat](https://developer.android.com/reference/android/support/v4/view/GestureDetectorCompat.html) and introduces implementation of scale, rotate, move, shove and tap gesture detectors. MapVina Gestures for Android was inspired by [Android Gesture Detector Framework](https://github.com/Almeros/android-gesture-detectors) and offers the same functionality with some additional features on top.
 
-This is a dependency of [MapVina Native for Android](https://github.com/mapvina/mapvina-native/tree/main/platform/android#readme).
+This is a dependency of [MapVina Native for Android](https://github.io/github/mapvina/mapvina-native/tree/main/platform/android#readme).
 
 ## License
 

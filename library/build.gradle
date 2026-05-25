@@ -32,7 +32,7 @@ android {
         }
     }
 
-    namespace 'com.mapvina.android.gestures'
+    namespace 'io.github.mapvina.android.gestures'
 }
 
 kotlin {
